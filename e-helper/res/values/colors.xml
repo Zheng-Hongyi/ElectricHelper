@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#f7f7f7</color>
+    
+    <color name="background_color_half">#ececec</color>
+    <color name="background">#f6f6f6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#0066FF</color>
+    <color name="blue_half">#487DBF</color>
+    <color name="red">#FF0000</color>
+    <color name="no_color">#00000000</color>
+    <color name="bg_color">#F4F3F3</color>
+    <color name="bg_color_deep">#E5E5E5</color>
+    <color name="black">#000000</color>
+    <color name="text_color">#434343</color>
+    <color name="black_half">#50000000</color>
+    <color name="text_black">#808080</color>
+    
+    <color name="list_view_divider_color">#e6e6e6</color>
+    
+    <color name="c_app_user_center_list_view_cell_inter_color">#00000000</color>
+    <color name="edit_bg">#3685e7</color>
+    <color name="grey">#a9a7a8</color>
+</resources>

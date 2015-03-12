@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="AVOS/android-async-http-1.4.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="AVOS/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="AVOS/avoscloud-v2.6.9.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="AVOS/avosfeedback-v2.6.9.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="AVOS/avospush-v2.6.9.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="AVOS/fastjson.jar"/>
+	<classpathentry exported="true" kind="lib" path="AVOS/httpmime-4.2.4.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/ImageLoader"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

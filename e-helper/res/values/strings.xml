@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">用电助手</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- 主页 -->
+    <string name="main_title">欢迎使用</string>
+    <string name="main_item_userinfo">用户信息</string>
+    <string name="main_item_common_buse">常规业务</string>
+    <string name="main_item_e_common_sence">用电常识</string>
+    <string name="main_item_online_beg">在线求助</string>
+    <string name="main_item_message_notify">消息通知</string>
+    <string name="main_item_about_us">关于我们</string>
+    
+    <!-- 用户信息 -->
+    <string name="user_info_title">用户信息</string>
+    <string name="user_info_num">用户编号</string>
+    <string name="user_regis_time">上次登录</string>
+    <string name="user_tip_info">以下是您基本的用电信息</string>
+    <string name="user_current_balance">电费余额</string>
+    <string name="user_elec_consumption">当前用电量</string>
+    <string name="user_remain_elec">剩余电量</string>
+    <string name="user_peak_elec">峰谷电量</string>
+    <string name="user_info_failed">用户信息获取失败</string>
+    
+    <!-- 常规业务 -->
+    <string name="common_b_title">常规业务</string>
+    <string name="common_b_noresults">暂无数据</string>
+    <string name="common_b_business_title">业务详情</string>
+    
+    <!-- 用电常识 -->
+    <string name="common_e_title">用电常识</string>
+    <string name="common_e_noresults">暂无数据</string>
+    
+    
+    <!-- 在线求助 -->
+    <string name="online_beg_title">在线求助</string>
+    
+    <!-- 消息通知 -->
+    <string name="msg_notify_title">消息通知</string>
+    
+    <!-- 关于我们 -->
+    <string name="about_us_title">关于我们</string>
+    <string name="about_us_app_version">当前版本</string>
+    <string name="about_us_inner_version">v 1.0.0</string>
+    <string name="about_us_contact">联系我们</string>
+    <string name="about_us_tousu">拨打投诉热线</string>
+    
+    <!-- 用户登录 -->
+    <string name="login_title">用户登录</string>
+    <string name="login_account">账号</string>
+    <string name="login_account_place_holder">电表号码</string>
+    <string name="login_pass">密码</string>
+    <string name="login_pass_place_holder">6–32位英文或数字</string>
+    <string name="login_tex">登陆</string>
+    <string name="login_register">新用户注册</string>
+    <string name="app_leave_name_or_pass">请输入账号或者密码</string>
+    <string name="app_login_failed">登录失败</string>
+    
+    <!-- 用户注册 -->
+    <string name="register_title">用户注册</string>
+    <string name="register_confirm_pass">确认密码</string>
+    <string name="register_regist">注册</string>
+    <string name="register_leave_msg">请完善您的注册信息</string>
+    <string name="app_register_failed">注册失败</string>
+    <string name="register_pass_un_same">两次输入的密码不一致</string>
+</resources>

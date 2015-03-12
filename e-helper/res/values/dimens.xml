@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="activity_margin_padding">10dp</dimen>
+    <dimen name="activity_margin_padding_top">16dp</dimen>
+    <dimen name="child_margin_padding">8dp</dimen>
+    <dimen name="table_content_margin_padding">5dp</dimen>
+    
+    <dimen name="right_function_margin_top">15dp</dimen>
+    
+    <dimen name="u_center_header_margin_top_bottom">10dp</dimen>
+    <dimen name="u_center_custom_item_margin_left">10dp</dimen>
+    <dimen name="u_center_custom_item_margin_inter">10dp</dimen>
+    <dimen name="u_center_profile_width">70dp</dimen>
+    
+    <dimen name="c_app_user_center_list_view_cell_inter">5dp</dimen>
+    <dimen name="ac_app_user_center_list_view_margin_top">10dp</dimen>
+    <dimen name="ac_app_user_center_list_view_margin_lr">15dp</dimen>
+    <dimen name="a_app_user_center_user_profile_margin_top">100dp</dimen>
+    
+  
+    <dimen name="ac_app_myrelease_area_height">200dp</dimen>
+    <dimen name="ac_app_myrelease_area_marging">10dp</dimen>
+    
+  
+    <dimen name="ac_app_leave_message_area_heght">120dp</dimen>
+    <dimen name="ac_app_leave_message_area_margin">5dp</dimen>
+    
+  
+	<dimen name="c_app_store_first_margin_top">10dp</dimen>
+	<dimen name="c_app_store_first_margin_lrght">20dp</dimen>
+	
+	<!-- TabBar -->
+	<dimen name="space_3">3.0dip</dimen>
+    <dimen name="space_2">2.0dip</dimen>
+    <dimen name="text_size_10">10.0dip</dimen>
+    <dimen name="space_1">1.0dip</dimen>
+ 	<dimen name="popmenu_width">175.0dip</dimen>
+    <dimen name="popmenu_yoff">0.0dip</dimen>
+</resources>

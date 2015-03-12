@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/main_header" />
+
+      <!-- 登陆输入信息 -->
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin_padding"
+                android:layout_marginRight="@dimen/activity_margin_padding"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/table_ttt" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/child_margin_padding"
+                        android:layout_marginTop="@dimen/child_margin_padding"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="@string/login_account"
+                        android:textColor="@color/black" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/login_account"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/child_margin_padding"
+                        android:layout_marginLeft="@dimen/child_margin_padding"
+                        android:layout_marginTop="@dimen/child_margin_padding"
+                        android:background="@null"
+                        android:hint="@string/login_account_place_holder"
+                        android:singleLine="true" 
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/table_back_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/child_margin_padding"
+                        android:layout_marginTop="@dimen/child_margin_padding"
+                        android:text="@string/login_pass"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp" />
+
+                    <EditText
+                        android:id="@+id/login_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/child_margin_padding"
+                        android:layout_marginLeft="@dimen/child_margin_padding"
+                        android:layout_marginTop="@dimen/child_margin_padding"
+                        android:background="@null"
+                        android:hint="@string/login_pass_place_holder"
+                        android:inputType="textPassword"
+                        android:singleLine="true"/>
+                </LinearLayout>
+            </TableLayout>
+            <!-- 登陆注册按钮 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin_padding"
+                android:layout_marginRight="@dimen/activity_margin_padding"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/app_login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_btn"
+                    android:text="@string/login_tex" 
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/app_register_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_margin_padding"
+                    android:layout_weight="1"
+                    android:background="@drawable/register_btn"
+                    android:text="@string/login_register"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+    
+</LinearLayout>
